@@ -21,7 +21,7 @@ body{
     align-items: center; /* Centra verticalmente */
     max-width: auto; 
     max-height: 25px; 
-    margin-right: 0px; /* Espacio entre la imagen y los enlaces*/
+    margin-right: auto; /* Espacio entre la imagen y los enlaces*/
     overflow: hidden; /* Oculta el contenido fuera del contenedor*/
   }
   
