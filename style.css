@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+
+/*Estilos para barra de navegación*/
+
+.cabecero {
+  background-color: #1F2937;
+  color: white;
+  padding: 0px;
+  text-align: center;
+  height: 25px;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    max-width: auto; 
+    max-height: 25px; 
+    margin-right: 0px; /* Espacio entre la imagen y los enlaces*/
+    overflow: hidden; /* Oculta el contenido fuera del contenedor*/
+  }
+  
+
+  .cabecero nav {
+    margin-left: auto; /* Empuja los enlaces hacia la derecha */
+  }
+  .cabecero nav a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: white; /* Color del texto de los enlaces */
+    margin-left: 30px; /* Espacio entre los enlaces */
+    margin-right: 20px;
+  }
+
+  /*Estilos de la primera sección*/
+  .principal1 {
+    background-color: #1F2937;
+    padding: 20px;
+    color: white;
+    display: flex; /* Utilizando flexbox */
+  }
+  
+  .izquierda {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px; /* Espacio entre los contenidos */
+  }
+  
+  .izquierda h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 0px;
+  }
+  
+  .izquierda p {
+    font-size: 18px;
+    color: #e5e7e9;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .signup {
+    background-color: #3882f6;
+    color: #e5e7e9;
+    border-radius: 5px;
+    width: 90px;
+    height: 25px;
+    border: none;
+    margin-top: 15px;
+  }
+  .signup:hover{
+    background-color: black;
+  }
+  .signup:active {
+    background-color: red; /* Otros estilos cuando se activa el botón */
+  }
+  
+  .derecha {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    height: 125px;
+    margin-top: 40px; /* Controla la altura del contenedor derecho*/
+  }
+  
+  .derecha img {
+    max-width: 100%; /* Para mantener la proporción */
+    max-height: 125px; 
+    display: block;
+  }
+
+  /*Estilos para la segunda sección*/
+  .principal2{
+    height: 400px;
+  }
+  .principal2 h2 {
+    font-size: 50px;
+    color: #1F2937;
+    text-align: center;
+  }
+  .containergrid {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items:center; /* Centra verticalmente */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* 4 columnas */
+    grid-template-rows: repeat(2, 100px); /* 2 filas */
+    gap: 40px; /* Espaciado entre las columnas */
+    grid-row-gap: 5px; /* Espaciado entre las filas */
+  }
+  
+  .grid-item1 {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-align:center;
+  }
+
+  .grid-item2 {
+    background-color: white;
+    text-align: center;
+  }
+
+  /*Estilos tercera sección*/
+  .frase{
+    background-color: #e5e7e9;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .frase .firma{
+    text-align: end;
+  }
+  /*Estilos cuarta sección*/
+  .accion{
+    background-color: #3882f6;
+    margin: 50px auto; /* Márgenes automáticos centrando horizontalmente */
+    width: 80%;
+    height: 200px;
+    max-width: 1000px; /* Ancho máximo para el contenedor */
+    display: flex;
+    align-items: center;
+  }
+  .accion .izquierda {
+    margin: 0 20px 30px;
+  }
+   
+  .accion .derecha {
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; /* Alinea el contenido al final (derecha) */
+    margin: 0 20px;
+  }
+  .accion .derecha .boton .signup {
+    background-color: #3882f6;
+    color: #e5e7e9;
+    border-radius: 5px;
+    width: 90px;
+    height: 40px;
+    border: 2px solid white;
+  }
+  .accion .derecha .boton .signup:hover{
+    background-color: black;
+  }
+  .accion .derecha .boton .signup:active {
+    background-color: red; /* Otros estilos cuando se activa el botón */
+  }
+
+  footer{
+    background-color: #1F2937;
+    color: #e5e7e9;
+    height: 50px;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
